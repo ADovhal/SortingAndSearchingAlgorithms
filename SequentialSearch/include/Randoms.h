@@ -1,0 +1,16 @@
+#ifndef RANDOMS_H
+#define RANDOMS_H
+
+
+class Randoms
+{
+    public:
+        Randoms();
+        virtual ~Randoms();
+
+        static int* RandomTable1(int length);
+        static int* RandomTable2(int length);
+        static int LosujIndeks(int length);
+};
+
+#endif // RANDOMS_H
